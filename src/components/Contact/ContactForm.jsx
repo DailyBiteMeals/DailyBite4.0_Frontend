@@ -30,7 +30,10 @@ const ContactForm = () => {
     }
 
     try {
-      await axios.post("http://localhost:5000/ContactForm", formData);
+      await axios.post(
+        "https://dailybite4-0-backend.onrender.com/ContactForm",
+        formData
+      );
       setFormData({ name: "", email: "", mobile: "", message: "" });
       setShowThankYou(true); // Show thank-you popup
     } catch (error) {
