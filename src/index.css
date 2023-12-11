@@ -1,0 +1,63 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  font-family: "ExtraCondensedMedium";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "ExtraCondensedSemiBold";
+  src: url("./assets/fonts/AcuminPro/AcuminProExtraCondSemibold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "ExtraCondensedBlack";
+  src: url("./assets/fonts/AcuminPro/AcuminProExtraCondBlack.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "ExtraCondensedBold";
+  src: url("./assets/fonts/AcuminPro/AcuminProExtraCondBold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "ExtraCondensedMedium";
+  src: url("./assets/fonts/AcuminPro/AcuminProExtraCondMedium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "ExtraCondensedMediumItalic";
+  src: url("./assets/fonts/AcuminPro/ExtraCondMediumItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "ExtraCondensedBlackitalic";
+  src: url("./assets/fonts/AcuminPro/ExtraCondBlackItalic.otf")
+    format("OPENTYPE");
+}
+
+@font-face {
+  font-family: "InterMedium";
+  src: url("./assets/fonts/Inter/static/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: "InternRegular";
+  src: url("./assets/fonts/Inter/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "InterSemiBold";
+  src: url("./assets/fonts/Inter/static/Inter-SemiBold.ttf");
+}
