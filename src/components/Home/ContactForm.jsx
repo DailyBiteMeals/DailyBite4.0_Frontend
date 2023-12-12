@@ -37,7 +37,8 @@ const ContactForm = () => {
       setFormData({ name: "", email: "", mobile: "", message: "" });
       setShowThankYou(true); // Show thank-you popup
     } catch (error) {
-      console.error("Error:", error);
+      console.error("Error:", error.message); // Log the specific error message
+      console.error("Error details:", error.response); // Log the response object for more details (if available)
     }
   };
 
