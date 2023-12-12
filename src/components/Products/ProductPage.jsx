@@ -167,7 +167,7 @@ const ProductPage = () => {
               className="bg-mainOrange hover:bg-DailyBiteDarkChocolaty text-white py-2 px-2 text-sm mt-2 lg:py-2 lg:px-8 lg:text-xl font-InterSemiBold rounded lg:mt-4"
               onClick={handleOrderNow}
             >
-              Order Now
+              Enquire Now
             </button>
             {showForm && (
               <div className="fixed top-6 px-4 lg:top-10 left-0 lg:px-60 w-full h-full flex items-center justify-center bg-opacity-50 ">

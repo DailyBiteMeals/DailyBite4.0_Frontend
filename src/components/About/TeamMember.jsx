@@ -38,7 +38,7 @@ const teamMembers = [
   },
   {
     name: "Sejal Murabatte",
-    position: "Digital Marketing Executive Intern",
+    position: "Digital Marketing Executive",
     image: Sejal,
     socialMedia: [
       { icon: Linkedin, link: "www.linkedin.com/in/sejal-murabatte-85310322a" },
