@@ -8,7 +8,7 @@ import keploy from "../../assets/Logo/CustomerLogo/Keploy.png";
 import newtral from "../../assets/Logo/CustomerLogo/Newtral.png";
 
 // Testimonial component
-const Testimonial = ({ title, text, logo }) => {
+const Testimonial = ({ title, company, text, logo }) => {
   return (
     <div className="rounded-lg p-4 lg:p-8">
       <div className="flex justify-center items-center p-2 lg:p-4">
@@ -36,8 +36,12 @@ const Testimonial = ({ title, text, logo }) => {
         </div>
         <div>
           <h4 className=" text-center text-lg lg:text-3xl font-ExtraCondensedBold">
-            - {title}
+            - {title},
           </h4>
+          <br></br>
+          <h3 className="text-center text-lg lg:text-3xl font-ExtracondensedMedium">
+            {company}
+          </h3>
         </div>
       </div>
     </div>
@@ -48,17 +52,20 @@ export default class VerticalMode extends Component {
   render() {
     const testimonials = [
       {
-        title: "Accenture Employees",
+        title: "Yashwanth Hanumantharaya",
+        company: "Accenture",
         text: "The food is incredibly tasty, and I'm very satisfied with their service. They've maintained consistent quality throughout our subscription, and their staff is professional and punctual. What's even more impressive is their willingness to listen to feedback and continuously improve. Thank you for your service!",
         logo: acenture,
       },
       {
-        title: "Keploy",
+        title: "Gourav Kumar",
+        company: "Keploy",
         text: "If you're in search of a healthy and home-cooked meal experience for your employees, you must give them a try. Their food is both tasty and nutritious, and it's always served with top-notch hygiene standards. We appreciate how they worked with us to customize the menu and took care of employees with food allergies.",
         logo: keploy,
       },
       {
-        title: "Newtral",
+        title: "Vinod Sonagara",
+        company: "Newtral",
         text: "We've been enjoying their food for the past 7 months, and it's both delicious and nutritious. What stands out is their excellent service. They consistently deliver on time, and their packaging is both personalized and professional.",
         logo: newtral,
       },
@@ -71,6 +78,7 @@ export default class VerticalMode extends Component {
           title={testimonial.title}
           text={testimonial.text}
           logo={testimonial.logo}
+          company={testimonial.company}
         />
       </div>
     ));
