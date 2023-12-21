@@ -9,6 +9,7 @@ import DeliveryLocation from "./DeliveryLocation";
 import ContactForm from "./ContactForm";
 import ContactInfo from "./ContactInfo";
 import LandingPage from "./LandingPage";
+import DiscountPoster from "./DiscountPoster";
 
 function Home() {
   return (
@@ -21,6 +22,9 @@ function Home() {
 
       {/* Products Section */}
       <CardSection />
+
+      {/* Discount Poster */}
+      <DiscountPoster />
 
       {/* About */}
       <AboutHome />

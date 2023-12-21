@@ -14,8 +14,8 @@ function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 shadow px-4 md:px-20 bg-white/50 backdrop-opacity-10 backdrop-invert">
-      <nav className="py-2.5 font-ExtraCondensedSemiBold bg-opacity-10 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 bg-white shadow px-4 md:px-20 backdrop-opacity-10 backdrop-invert">
+      <nav className="py-2.5 font-ExtraCondensedSemiBold">
         <div className="flex flex-row flex-wrap justify-between items-center max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img src={DailybiteLogo} className="h-12" alt="Dailybite Logo" />

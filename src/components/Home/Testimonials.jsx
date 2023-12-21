@@ -36,12 +36,11 @@ const Testimonial = ({ title, company, text, logo }) => {
         </div>
         <div>
           <h4 className=" text-center text-lg lg:text-3xl font-ExtraCondensedBold">
-            - {title},
+            - {title},<br></br>
+            <h3 className="text-center text-base lg:text-2xl font-ExtracondensedMedium leading-4 lg:leading-8 ">
+              {company}
+            </h3>{" "}
           </h4>
-          <br></br>
-          <h3 className="text-center text-lg lg:text-3xl font-ExtracondensedMedium">
-            {company}
-          </h3>
         </div>
       </div>
     </div>
